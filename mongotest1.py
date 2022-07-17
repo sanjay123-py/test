@@ -3,6 +3,11 @@ client = pymongo.MongoClient("mongodb+srv://ineuron:mongodb123@cluster0.goi2j.mo
 db = client.test
 print(db)
 d= dict(name="sanjay", email="sanjaysanjay1270@gmail.com", surname=".R")
+d= dict(name="sanjay", email="sanjaysanjay1270@gmail.com", surname=".R")
+d= dict(name="sanjay", email="sanjaysanjay1270@gmail.com", surname=".R")
+d= dict(name="sanjay", email="sanjaysanjay1270@gmail.com", surname=".R")
+d= dict(name="sanjay", email="sanjaysanjay1270@gmail.com", surname=".R")
+
 db1=client['mongotest']
 coll=db1['test']
 coll.insert_one(d)
